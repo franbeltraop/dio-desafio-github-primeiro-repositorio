@@ -1,0 +1,48 @@
+Git e GitHub não são a mesma coisa, eles se complementam!
+
+BENEFÍCIOS:
+- controle de versão
+- armazenamento em nuvem
+- trabalho em equipe
+- melhorar o seu código
+- reconhecimento
+
+
+Comandos básicos no Windows:
+
+- dir: lista os diretórios em que estou inserida no momento
+- cd: muda o diretório em que estou
+- cd + (pasta): entra dentro da pasta digitada anteriormente
+- cd ..: retrocede um passo
+- cls: limpa o terminal (tela)
+- TAB: atalho para completar um comando
+- mkdir: criar uma pasta
+- del: usado para deletar arquivos
+- rmdir: usado para deletar pastas/diretórios
+
+Tópicos importantes (Git):
+
+SHA1 - algoritmo de encriptação (conjunto de 40 caracteres é gerado como identificador)
+*caso seja feita alguma alteração no arquivo, outro sha1 será criado
+ECHO - irá "cuspir" uma string do mesmo jeito que foi escrita
+
+Blobs - bloco básico de composição (guarda o sha1)
+Trees - irá armazenar vários blobs e apontar para outras árvores
+Commits - agrupa todas as informações anteriores
+- o histórico de alterações irá aparecer, portanto o Git é muito seguro!!
+
+**COMANDOS GIT:
+git init: iniciar um novo repositório
+- caso a pasta não apareça quando eu rodar o ls, é porque a pasta está oculta
+- para que a pasta oculta apareça, rodo um ls -a
+
+git add *: adiciona um novo arquivo
+
+git commit -m: gera um novo commit (contém o sha1)
+
+git status: mostra qual o status do arquivo
+- untracked
+- unmodified
+- modified
+- staged
+
