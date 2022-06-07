@@ -2,3 +2,5 @@
 _Primeiro desafio do bootcamp Santander Fullstack Developer_
 ## Links Úteis
 [Basic Synthax Markdown](https://www.markdownguide.org/basic-syntax/)
+
+[Download Git](https://git-scm.com/downloads)
